@@ -6,14 +6,14 @@ import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import { SongModel, SongEditHistory } from '../../data/Models';
+import { SongModel } from '../../data/Models';
 import { SongHandler } from '../../utils/Handlers';
 import Button from '@material-ui/core/Button';
 import CloseIcon from '@material-ui/icons/Close';
 import BackIcon from '@material-ui/icons/Undo';
 import ForwardIcon from '@material-ui/icons/Redo';
 import { AppBar, createStyles, makeStyles, Theme,Snackbar } from '@material-ui/core';
-import { SongRepository } from '../../data/SongRepository';
+//import { SongRepository } from '../../data/SongRepository';
 import AddNewSongSectionMenu from './AddNewSongSectionMenu';
 import ViewTogglerSwitch from './ViewTogglerSwitch';
 
